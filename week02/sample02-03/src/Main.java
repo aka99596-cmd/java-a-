@@ -17,6 +17,8 @@ void main() {
     weight =keyboard.nextFloat();
 
     System.out.printf("%s님의 나이는 %d살 입니다.\n", name, age);
-    System.out.printf("%s님의 키는 %.1fCm 입니다.\n", name, age);
-    System.out.printf("%s님의 몸무게는 %d살 입니다.\n", name, age);
+    System.out.printf("%s님의 키는 %.1f Cm 입니다.\n", name, height);
+    System.out.printf("%s님의 몸무게는 %.1f kg 입니다.\n", name, weight);
+
+    keyboard.close();
 }

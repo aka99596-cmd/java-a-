@@ -9,7 +9,6 @@ void main() {
     radius = keyboard.nextInt();
 
     원의면적 = 3.141592 * radius * radius;
-    원의면적 = keyboard.nextDouble();
 
     System.out.printf("원의 반지름 : %,d Cm, 원의 면적 : %,.2f\u33a0\n",radius, 원의면적);
 
